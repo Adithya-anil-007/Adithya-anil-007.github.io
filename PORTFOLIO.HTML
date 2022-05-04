@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="PP.css">
+</head>
+<body class="body">
+    <marquee height="20" bgcolor="aqua">CV</marquee>
+   
+  <style>
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: right; }
+    .item5 { grid-area: footer; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+      gap: 1px;
+      background-color: #00090f;
+      padding: 1px;
+    }
+    
+    .grid-container > div {
+      background-color: rgb(255, 255, 255);
+      text-align: left;
+      padding: 1px 0;
+      font-size: 15px;
+    }
+    </style>
+    <div class="grid-container">
+      <div class="item1"> <img style="float: left;" src="rr.jpg"/></div>
+      <br> <p class="p1">Ryan Renolds</p>
+      <div class="item2"><pre>PROFILE
+        Want to put your own image in the circle?
+        It is easy!  Select the image and do a right mouse click.
+        Select “Fill” from the shortcut menu.
+        Choose Picture… from the list.
+        Navigate your computer to get the appropriate picture.
+        Click okay to insert your selected image.Once your image has been inserted,
+        select it again.Go to the Picture Tools Format menu.
+        Click on the down arrow below “Crop” and select “Fill” from the list
+        This will auto adjust your image to crop to the image
+        ou can click and drag your image to place it appropriately.
+        
+        CONTACT
+        PHONE:
+        678-555-0103
+        
+        WEBSITE:
+        adithyanilkumar950@gmail.com
+        
+        EMAIL:
+        adithyanilkumar950@gmail.com
+        HOBBIES
+        dancing
+        playing
+        reading
+        </pre></div>
+      <div class="item3"><pre>EDUCATION
+        Kerala School
+        2007-2019
+        [kerala school ]
+        [2007] - [2019]
+        [am very chill dude 
+        am hard worker,
+        am very helpful]
+        </pre></div>  
+      <div class="item4"><pre>WORK EXPERIENCE
+        [black buck]  [intern]
+        [2020-5-4][2021-5-4]
+        [Good hardworking 
+        obiedient
+        punctual
+    ] 
+        
+        [Team computers]  [Manager]
+        [2021-7-6][2021-10-3]
+        [Looking after the interns
+        managing projects
+        ] 
+        
+        [\a2 interiors]  [Manager]
+        [2022-03-18][2022-6-7]
+
+        [Managing big projects
+        Taking interview] 
+        </pre></div>
+      <div class="item5"><pre>SKILLS
+        <img src="Capture.JPG"/>
+      </pre></div>
+    </div>
+</body>
+</html>
